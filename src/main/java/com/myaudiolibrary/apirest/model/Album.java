@@ -7,8 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.persistence.*;
 
 @Entity
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class,property = "id")
-@RequestMapping("/albums")
+
 public class Album {
 
     @Id

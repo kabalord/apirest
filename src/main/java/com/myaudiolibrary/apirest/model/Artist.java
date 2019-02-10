@@ -11,13 +11,12 @@ import java.nio.MappedByteBuffer;
 
 @Entity
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class,property = "id")
-@RequestMapping("/artists")
+
 public class Artist {
 
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-
     private Long id;
 
     private String name;

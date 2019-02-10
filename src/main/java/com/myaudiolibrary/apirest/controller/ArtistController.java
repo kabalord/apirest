@@ -62,8 +62,7 @@ public class ArtistController {
     @RequestMapping(
             method = RequestMethod.POST,
             consumes = "application/json",
-            produces = "application/json",
-            value = ""
+            produces = "application/json"
 
     )
     public Artist createArtist(@RequestBody Artist artist){
