@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e17f9e3e-4791-4d3d-8c4a-f3581ad5b82f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/controller/ArtistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/controller/ArtistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Album.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Artist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/repository/ArtistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/repository/ArtistRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/controller/ArtistController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/controller/ArtistController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/model/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/model/Album.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/model/Artist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/model/Artist.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/repository/ArtistRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/repository/ArtistRepository.class" afterDir="false" />
     </list>
@@ -16,31 +20,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/apirest$ApirestApplication.ic" NAME="ApirestApplication Coverage Results" MODIFIED="1549632452119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/apirest$ApirestApplication.ic" NAME="ApirestApplication Coverage Results" MODIFIED="1549925708849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="170" />
+    <option name="myElementSize" value="213" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Artist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+            <state relative-caret-position="795">
+              <caret line="53" column="38" lean-forward="true" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
               <folding>
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1148#1149#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/controller/ArtistController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+            <state relative-caret-position="98">
+              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -49,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/repository/ArtistRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -57,8 +66,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Album.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="405">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,10 +96,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/controller/ArtistController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Album.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/repository/ArtistRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Artist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/controller/ArtistController.java" />
       </list>
     </option>
   </component>
@@ -237,15 +253,16 @@
       <updated>1549632415771</updated>
       <workItem from="1549632417220" duration="2891000" />
       <workItem from="1549828443746" duration="1038000" />
-      <workItem from="1549903705335" duration="1140000" />
+      <workItem from="1549903705335" duration="7625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5069000" />
+    <option name="totallyTimeSpent" value="11554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="989" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -258,14 +275,14 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3296" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32887402" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.2820513" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.2820513" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -275,7 +292,7 @@
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.31987077" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.31948882" />
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info anchor="right" id="Maven" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
@@ -294,42 +311,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Artist.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/controller/AlbumController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
-          <folding>
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/controller/ArtistController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Album.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        <state relative-caret-position="405">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/repository/ArtistRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Album.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Artist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="795">
+          <caret line="53" column="38" lean-forward="true" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/controller/AlbumController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/controller/ArtistController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="98">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
         </state>
       </provider>
     </entry>

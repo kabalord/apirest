@@ -1,14 +1,12 @@
 package com.myaudiolibrary.apirest.model;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 
-public class Album {
+public class Album implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -19,15 +17,19 @@ public class Album {
 
     private String title;
 
-    private long ArtistId;
+    @ManyToOne
+    @JoinColumn(name = "artistId")
+    private Artist artist;
+
+
 
     public Album(){
 
     }
 
-    public Album(String title, long artistId) {
+    public Album(String title, Artist artist) {
         this.title = title;
-        this.ArtistId = artistId;
+        this.artist = artist;
     }
 
     public Long getId() {
@@ -50,13 +52,15 @@ public class Album {
         this.title = title;
     }
 
-    public Long getArtistId() {
-
-        return ArtistId;
+    public Artist getArtist() {
+        return artist;
     }
 
-    public void setArtistId(long artistId) {
-
-        ArtistId = artistId;
+    public void setArtist(Artist artist) {
+        this.artist = artist;
     }
+
+
+
+
 }

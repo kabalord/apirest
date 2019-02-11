@@ -56,7 +56,6 @@ public class ArtistController {
         return artistRepository.findAll(pageRequest);
     }
 
-
 // 4 - Création d'un artiste
 
     @RequestMapping(
@@ -65,10 +64,24 @@ public class ArtistController {
             produces = "application/json"
 
     )
-    public Artist createArtist(@RequestBody Artist artist){
+    public Artist createArtist(
+            @RequestBody Artist artist){
         return artistRepository.save(artist);
     }
 
+// 5 - Modification d'un artiste
+
+    @RequestMapping(
+            method = RequestMethod.PUT,
+            consumes = "application/json",
+            produces = "application/json",
+            value = "/{id}"
+    )
+    public Artist modifyArtist(
+            @PathVariable("id") Long id,
+            @RequestBody Artist artist){
+        return artistRepository.save(artist);
+    }
 
 
 

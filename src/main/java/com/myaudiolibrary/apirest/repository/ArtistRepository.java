@@ -4,10 +4,9 @@ package com.myaudiolibrary.apirest.repository;
 import com.myaudiolibrary.apirest.model.Artist;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
-public interface ArtistRepository extends JpaRepository<Artist, Long> {
+public interface ArtistRepository extends PagingAndSortingRepository<Artist, Long> {
 
     Artist findById(Long id);
 

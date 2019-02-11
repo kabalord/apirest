@@ -2,26 +2,29 @@ package com.myaudiolibrary.apirest.model;
 
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.persistence.*;
-import java.nio.MappedByteBuffer;
+import java.io.Serializable;
+import java.util.List;
 
 
 @Entity
+@Table(name = "Artist")
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class,property = "id")
 
-public class Artist {
+public class Artist implements Serializable {
 
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
     private String name;
 
-
+    @OneToMany(mappedBy = "artist")
+    @JsonIgnoreProperties("artist")
+    private List<Album> albums;
 
 
     public Artist(){
@@ -51,5 +54,13 @@ public class Artist {
     public void setName(String name) {
 
         this.name = name;
+    }
+
+    public List<Album> getAlbums() {
+        return albums;
+    }
+
+    public void setAlbums(List<Album> albums) {
+        this.albums = albums;
     }
 }
