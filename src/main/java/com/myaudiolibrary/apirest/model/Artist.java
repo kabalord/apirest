@@ -34,7 +34,7 @@ public class Artist {
     }
 
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
