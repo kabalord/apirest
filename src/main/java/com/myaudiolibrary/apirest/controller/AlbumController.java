@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import javax.persistence.EntityNotFoundException;
+
 @RestController
 @RequestMapping("/albums")
 
@@ -34,6 +36,9 @@ public class AlbumController {
     )
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
     public void deleteAlbum(@PathVariable Long id){
+        if (!albumRepository.exists(id)){
+            throw new EntityNotFoundException("L'album d'identifiant  + id +  n'a pas été trouvé");
+        }
         albumRepository.delete(id);
     }
 

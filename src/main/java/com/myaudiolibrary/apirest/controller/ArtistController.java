@@ -1,5 +1,6 @@
 package com.myaudiolibrary.apirest.controller;
 
+import com.myaudiolibrary.apirest.model.Album;
 import com.myaudiolibrary.apirest.model.Artist;
 import com.myaudiolibrary.apirest.repository.AlbumRepository;
 import com.myaudiolibrary.apirest.repository.ArtistRepository;
@@ -12,6 +13,8 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.persistence.EntityExistsException;
 import javax.persistence.EntityNotFoundException;
+import javax.validation.constraints.Null;
+import java.util.List;
 
 @RestController
 @RequestMapping("/artists")
@@ -66,7 +69,7 @@ public class ArtistController {
 
     )
     public Artist createArtist(
-            @RequestBody Artist artist){
+            @RequestBody Artist artist) {
         return artistRepository.save(artist);
     }
 
@@ -80,7 +83,10 @@ public class ArtistController {
     )
     public Artist modifyArtist(
             @PathVariable("id") Long id,
-            @RequestBody Artist artist){
+            @RequestBody Artist artist) {
+        if (!artistRepository.exists(id)){
+            throw new EntityNotFoundException("L'artiste d'identifiant  + id +  n'a pas été modifié");
+        }
         return artistRepository.save(artist);
     }
 
@@ -94,6 +100,10 @@ public class ArtistController {
         if (!artistRepository.exists(id)){
             throw new EntityNotFoundException("L'artiste d'identifiant  + id +  n'a pas été trouvé");
         }
+        Artist a = artistRepository.findOne(id);
+        List<Album> albums = a.getAlbums();
+        albumRepository.delete(albums);
+        artistRepository.delete(id);
     }
 
 
