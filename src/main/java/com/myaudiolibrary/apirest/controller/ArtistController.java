@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import javax.persistence.EntityExistsException;
@@ -81,6 +82,18 @@ public class ArtistController {
             @PathVariable("id") Long id,
             @RequestBody Artist artist){
         return artistRepository.save(artist);
+    }
+
+// 6 - Suppression d'un artiste
+
+    @RequestMapping(
+            method = RequestMethod.DELETE,
+            value = "/{id}"
+    )@ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteArtist(@PathVariable("id") Long id){
+        if (!artistRepository.exists(id)){
+            throw new EntityNotFoundException("L'artiste d'identifiant  + id +  n'a pas été trouvé");
+        }
     }
 
 

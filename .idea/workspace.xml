@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e17f9e3e-4791-4d3d-8c4a-f3581ad5b82f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/controller/ArtistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/controller/ArtistController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/model/Artist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/repository/ArtistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/repository/ArtistRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/controller/ArtistController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/controller/ArtistController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/model/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/model/Album.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/model/Artist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/model/Artist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/repository/ArtistRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myaudiolibrary/apirest/repository/ArtistRepository.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/apirest$ApirestApplication.ic" NAME="ApirestApplication Coverage Results" MODIFIED="1549925708849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/apirest$ApirestApplication.ic" NAME="ApirestApplication Coverage Results" MODIFIED="1549994011633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="213" />
@@ -48,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/controller/ArtistController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="468">
+              <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -253,16 +245,15 @@
       <updated>1549632415771</updated>
       <workItem from="1549632417220" duration="2891000" />
       <workItem from="1549828443746" duration="1038000" />
-      <workItem from="1549903705335" duration="7625000" />
+      <workItem from="1549903705335" duration="9105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11554000" />
+    <option name="totallyTimeSpent" value="13034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="989" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -282,7 +273,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.2820513" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.2820513" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -357,8 +348,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myaudiolibrary/apirest/controller/ArtistController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="468">
+          <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
         </state>
       </provider>
     </entry>
